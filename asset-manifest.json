@@ -1,15 +1,19 @@
 {
   "files": {
-    "main.js": "/dnd-damage-chart/static/js/main.cdbdcef7.chunk.js",
-    "main.js.map": "/dnd-damage-chart/static/js/main.cdbdcef7.chunk.js.map",
+    "main.js": "/dnd-damage-chart/static/js/main.e8ef1597.chunk.js",
+    "main.js.map": "/dnd-damage-chart/static/js/main.e8ef1597.chunk.js.map",
     "runtime-main.js": "/dnd-damage-chart/static/js/runtime-main.e2c71ab6.js",
     "runtime-main.js.map": "/dnd-damage-chart/static/js/runtime-main.e2c71ab6.js.map",
+    "static/js/2.6871c548.chunk.js": "/dnd-damage-chart/static/js/2.6871c548.chunk.js",
+    "static/js/2.6871c548.chunk.js.map": "/dnd-damage-chart/static/js/2.6871c548.chunk.js.map",
     "index.html": "/dnd-damage-chart/index.html",
-    "precache-manifest.1a9c109d8de15817e80a7b738ded8ba8.js": "/dnd-damage-chart/precache-manifest.1a9c109d8de15817e80a7b738ded8ba8.js",
-    "service-worker.js": "/dnd-damage-chart/service-worker.js"
+    "precache-manifest.2098c793c0ab0a6b4b0111e15a65cea7.js": "/dnd-damage-chart/precache-manifest.2098c793c0ab0a6b4b0111e15a65cea7.js",
+    "service-worker.js": "/dnd-damage-chart/service-worker.js",
+    "static/js/2.6871c548.chunk.js.LICENSE.txt": "/dnd-damage-chart/static/js/2.6871c548.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.e2c71ab6.js",
-    "static/js/main.cdbdcef7.chunk.js"
+    "static/js/2.6871c548.chunk.js",
+    "static/js/main.e8ef1597.chunk.js"
   ]
 }
