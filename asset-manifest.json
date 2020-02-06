@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.js": "/dnd-damage-chart/static/js/main.cdbdcef7.chunk.js",
+    "main.js.map": "/dnd-damage-chart/static/js/main.cdbdcef7.chunk.js.map",
+    "runtime-main.js": "/dnd-damage-chart/static/js/runtime-main.e2c71ab6.js",
+    "runtime-main.js.map": "/dnd-damage-chart/static/js/runtime-main.e2c71ab6.js.map",
+    "index.html": "/dnd-damage-chart/index.html",
+    "precache-manifest.85097148724b2176f87cd267dbe2ffcd.js": "/dnd-damage-chart/precache-manifest.85097148724b2176f87cd267dbe2ffcd.js",
+    "service-worker.js": "/dnd-damage-chart/service-worker.js"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e2c71ab6.js",
+    "static/js/main.cdbdcef7.chunk.js"
+  ]
+}
