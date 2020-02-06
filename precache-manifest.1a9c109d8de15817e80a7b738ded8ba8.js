@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "690973e6c8ec6e7bf7a75dd1be2c64d1",
+    "revision": "e772a49dba3442ebb2c05d0b12ae2122",
     "url": "/dnd-damage-chart/index.html"
   },
   {
