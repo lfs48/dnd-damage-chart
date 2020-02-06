@@ -2,6 +2,7 @@
   "name": "dnd-damage-chart",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://lfs48.github.io/dnd-damage-chart",
   "dependencies": {
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
