@@ -5,7 +5,8 @@ import {merge} from 'lodash';
 const Character = () => {
 
     const [state, setState] = useState({
-        class: "Artificer"
+        class: "Artificer",
+        subclass: "Alchemist"
     });
 
     const updateInput = (event, field) => {
@@ -19,6 +20,10 @@ const Character = () => {
         return <option value={name} key={i}>{name}</option>
     });
 
+    const subclassOptions = subclasses[state.class].map( (name,i) => {
+        return <option value={name} key={i}>{name}</option>
+    });
+
     return (
         <section className="character-container">
 
@@ -29,6 +34,15 @@ const Character = () => {
                 onChange={e => updateInput(e, 'class')}
             >
                 {classOptions}
+            </select>
+
+            <label htmlFor="subclassSelect">Subclass</label>
+            <select 
+                id="subclassSelect"
+                value={state.subclass}
+                onChange={e => updateInput(e, 'subclass')}
+            >
+                {subclassOptions}
             </select>
 
         </section>
