@@ -14,6 +14,7 @@ const Character = () => {
         event.preventDefault();
         const newState = merge({}, state);
         newState[field] = event.target.value;
+        if (field == 'class') {newState['subclass'] = subclasses[event.target.value][0]}
         setState(newState);
     }
 
