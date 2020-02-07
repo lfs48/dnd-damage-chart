@@ -1,11 +1,12 @@
 import React from 'react';
+import Navbar from './components/navbar';
 
 const App = () => {
-    return (
-      <div className="app-container">
-          <header>{"D&D 5E Damage Chart Tool"}</header>
-      </div>
-    );
-}
+  return (
+    <div className="app-container">
+      <Navbar/>
+    </div>
+  );
+};
 
 export default App;
