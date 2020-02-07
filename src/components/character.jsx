@@ -6,7 +6,8 @@ const Character = () => {
 
     const [state, setState] = useState({
         class: "Artificer",
-        subclass: "Alchemist"
+        subclass: "Alchemist",
+        level: 3
     });
 
     const updateInput = (event, field) => {
@@ -26,6 +27,15 @@ const Character = () => {
 
     return (
         <section className="character-container">
+
+            <label htmlFor="levelInput">Level</label>
+            <input 
+                type="number" 
+                min="1" max="20" 
+                value={state.level} 
+                onChange={e => updateInput(e,"level")}
+                id="levelInput"
+            ></input>
 
             <label htmlFor="classSelect">Class</label>
             <select 
