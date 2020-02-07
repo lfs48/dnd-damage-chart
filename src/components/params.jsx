@@ -12,7 +12,7 @@ const Params = () => {
 
     const updateInput = (event, field) => {
         event.preventDefault();
-        const newState = lodash.merge({}, state);
+        const newState = merge({}, state);
         newState[field] = event.target.value;
         setState(newState);
     }
@@ -24,8 +24,8 @@ const Params = () => {
             <input 
                 type="range" 
                 min="1" max="10" 
-                value={state.encountersPerShortRest} 
-                onChange={e => updateInput(e,"encounterPerDay")}
+                value={state.encountersPerDay} 
+                onChange={e => updateInput(e,"encountersPerDay")}
                 id="encounterPerDaySlider"
             ></input>
 
