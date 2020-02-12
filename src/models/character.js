@@ -10,6 +10,9 @@ class Character {
         this.cha = options.cha;
     } 
 
+    hitChance = 0.55;
+    critChance = 0.05;
+
     prof() {
         if (this.level < 5) {
             return 2;
